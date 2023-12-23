@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Niramit:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #648767;
+  --color-secundary: #7dc95e;
+  --color-bg: #cee7e6;
+  --font-primary: 'Niramit';
+  --font-special: 'Nerko One'
+}
+
+body {
+  user-select: none;
+  background-color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+@media (max-width: 800px) {
+  body {
+      margin: 0;
+  }
+}
